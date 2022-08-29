@@ -1,0 +1,157 @@
+*{
+    font-family: 'Inter';
+}
+body{
+    background: #E5E5E5;
+
+
+}
+ .logo{
+    margin-left: 50px;
+    margin-top: 15px;
+    
+ }
+
+.section-input{
+
+    margin-top: 50px;
+position: absolute;
+width: 680px;
+height: 288px;
+left: 140px;
+top: 68px; 
+}
+
+.input-texto{
+
+
+resize: none;
+font-family: 'Inter';
+background: #E5E5E5;
+border: #E5E5E5;
+font-style: normal;
+
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+
+}
+.input-texto::placeholder{
+    color:#0A3871
+    ;
+}
+
+
+
+.botoes{
+    margin-top: 140px;
+    
+    
+}
+.botoes img{
+    float: left;
+}
+.botoes p{
+    width: 228px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    margin-left: 10px;
+}
+
+.cripto{
+    clear: left;
+
+    padding: 14px 70px;
+    gap: 8px;
+    background-color: #0A3871;
+    color: aliceblue;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+
+}
+
+.descripto{
+    padding: 14px 70px ;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    
+
+    gap: 8px;
+    background-color:  #D8DFE8;
+    
+    border-radius: 24px;
+
+}
+
+.section-resposta{
+    border-radius: 24px;
+    position: absolute;
+left: 900px;
+top: 40px;
+
+width: 300px;
+height: 500px;
+background:white;
+}
+    
+
+
+.input-resposta{
+    
+    
+    resize: none;
+    font-size: 15px ;
+    background: #FFFFFF;
+    margin: 5% 0% 10% 10%;
+    height: 80%;
+    border: white;
+}
+.copiar{
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 5%;
+    
+    
+    
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    
+
+    gap: 8px;
+    background-color:  white;
+
+    
+    border-radius: 24px;
+    
+}
+.img-vazia{
+    
+    height: 80%;
+    width: 90%;
+    margin: 20% 20% 5% 5%   ;
+    
+
+
+}
+
+
+
+.vazia h1{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700    ;
+
+}
+.vazia p   {
+    color: #495057;
+    text-align: center;
+    font-size: 16px;
+    margin: 30px;
+}
